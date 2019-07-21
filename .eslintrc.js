@@ -77,8 +77,8 @@ module.exports = {
       {
         anonymous: "never",
         asyncArrow: "always",
-        constructor: "never",
-        method: "never",
+        // constructor: "never",
+        // method: "never",
         named: "never"
       }
     ],
