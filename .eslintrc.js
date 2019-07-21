@@ -1,12 +1,12 @@
 module.exports = {
   env: {
     browser: true,
-    es6: true
+    es6: true,
   },
   parser: "@typescript-eslint/parser",
   parserOptions: {
     project: "tsconfig.json",
-    sourceType: "module"
+    sourceType: "module",
   },
   plugins: ["@typescript-eslint", "@typescript-eslint/tslint"],
   rules: {
@@ -35,6 +35,7 @@ module.exports = {
     "@typescript-eslint/unified-signatures": "error",
     "arrow-body-style": "error",
     "arrow-parens": ["error", "as-needed"],
+    // "comma-dangle": ["error", "always-multiline"],
     complexity: "off",
     "constructor-super": "error",
     curly: "error",
@@ -79,8 +80,8 @@ module.exports = {
         asyncArrow: "always",
         // constructor: "never",
         // method: "never",
-        named: "never"
-      }
+        named: "never",
+      },
     ],
     "use-isnan": "error",
     "valid-typeof": "off",
@@ -88,7 +89,7 @@ module.exports = {
       "error",
       {
         rulesDirectory: [
-          "/Users/sbrow/Documents/GitHub/eslint-config/node_modules/tslint-microsoft-contrib"
+          "/Users/sbrow/Documents/GitHub/eslint-config/node_modules/tslint-microsoft-contrib",
         ],
         rules: {
           align: [true, "parameters", "statements"],
@@ -103,8 +104,8 @@ module.exports = {
               "private-method-regex": "^[a-z][\\w\\d]+$",
               "protected-method-regex": "^[a-z][\\w\\d]+$",
               "static-method-regex": "^[A-Z_\\d]+$",
-              "function-regex": "^[A-Za-z][\\w\\d]+$"
-            }
+              "function-regex": "^[A-Za-z][\\w\\d]+$",
+            },
           ],
           "import-name": true,
           "import-spacing": true,
@@ -116,8 +117,8 @@ module.exports = {
             true,
             100,
             {
-              "ignore-parameters-to-function-regex": "^describe$"
-            }
+              "ignore-parameters-to-function-regex": "^describe$",
+            },
           ],
           "max-line-length": [true, 120],
           "mocha-avoid-only": true,
@@ -135,7 +136,7 @@ module.exports = {
           "no-http-string": [
             true,
             "http://www.example.com/?.*",
-            "http://localhost:?.*"
+            "http://localhost:?.*",
           ],
           "no-inner-html": true,
           "no-jquery-raw-elements": true,
@@ -160,7 +161,7 @@ module.exports = {
           "object-literal-sort-keys": [
             true,
             "locale-compare",
-            "match-declaration-order"
+            "match-declaration-order",
           ],
           "one-line": [
             true,
@@ -168,20 +169,20 @@ module.exports = {
             "check-else",
             "check-finally",
             "check-open-brace",
-            "check-whitespace"
+            "check-whitespace",
           ],
           "only-arrow-functions": [
             true,
             "allow-declarations",
-            "allow-named-functions"
+            "allow-named-functions",
           ],
           "ordered-imports": [
             true,
             {
               "import-sources-order": "case-insensitive",
               "module-source-path": "full",
-              "named-imports-order": "case-insensitive"
-            }
+              "named-imports-order": "case-insensitive",
+            },
           ],
           "possible-timing-attack": true,
           "prefer-array-literal": true,
@@ -216,8 +217,8 @@ module.exports = {
             {
               esSpecCompliant: true,
               multiline: "always",
-              singleline: "never"
-            }
+              singleline: "never",
+            },
           ],
           "triple-equals": [true, "allow-null-check"],
           "underscore-consistent-invocation": true,
@@ -227,7 +228,7 @@ module.exports = {
             true,
             "ban-keywords",
             "check-format",
-            "allow-pascal-case"
+            "allow-pascal-case",
           ],
           whitespace: [
             true,
@@ -236,10 +237,10 @@ module.exports = {
             "check-operator",
             "check-separator",
             "check-type",
-            "check-typecast"
-          ]
-        }
-      }
-    ]
-  }
+            "check-typecast",
+          ],
+        },
+      },
+    ],
+  },
 };
