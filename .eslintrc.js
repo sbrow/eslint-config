@@ -232,7 +232,7 @@ module.exports = {
           "react-no-dangerous-html": true,
           "react-this-binding-issue": true,
           "react-unused-props-and-state": true,
-          semicolon: [true, "always"],
+          // semicolon: [true, "always"],
           // "trailing-comma": [
           //   true,
           //   {
