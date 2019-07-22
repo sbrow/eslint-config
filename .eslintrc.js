@@ -80,6 +80,16 @@ module.exports = {
     "object-shorthand": "error",
     "one-var": ["error", "never"],
     "prefer-const": "error",
+    "prefer-destructuring": [
+      "error",
+      {
+        array: true,
+        object: true,
+      },
+      {
+        enforceForRenamedProperties: false,
+      },
+    ],
     // "quote-props": ["error", "consistent-as-needed"],
     radix: "error",
     // "space-before-function-paren": [
