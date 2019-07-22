@@ -15,6 +15,14 @@ module.exports = {
     "@typescript-eslint/await-thenable": "error",
     "@typescript-eslint/ban-types": "error",
     "@typescript-eslint/class-name-casing": "error",
+    "@typescript-eslint/explicit-function-return-type": [
+      "error",
+      {
+        allowExpressions: false,
+        allowTypedFunctionExpressions: false,
+        allowHigherOrderFunctions: false,
+      },
+    ],
     "@typescript-eslint/explicit-member-accessibility": [
       "error",
       {
