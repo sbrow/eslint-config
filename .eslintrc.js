@@ -44,7 +44,7 @@ module.exports = {
     "arrow-body-style": "error",
     "arrow-parens": ["error", "as-needed"],
     // "comma-dangle": ["error", "always-multiline"],
-    complexity: "off",
+    complexity: "warn",
     "constructor-super": "error",
     curly: "error",
     "dot-notation": "error",
