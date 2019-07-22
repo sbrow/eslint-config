@@ -82,16 +82,16 @@ module.exports = {
     "prefer-const": "error",
     // "quote-props": ["error", "consistent-as-needed"],
     radix: "error",
-    "space-before-function-paren": [
-      "error",
-      {
-        anonymous: "never",
-        asyncArrow: "always",
-        // constructor: "never",
-        // method: "never",
-        named: "never",
-      },
-    ],
+    // "space-before-function-paren": [
+    //   "error",
+    //   {
+    //     anonymous: "never",
+    //     asyncArrow: "always",
+    //     // constructor: "never",
+    //     // method: "never",
+    //     named: "never",
+    //   },
+    // ],
     // Doesn't allow split import groups
     // "sort-imports": ["warn", {ignoreCase: true}],
     "use-isnan": "error",
