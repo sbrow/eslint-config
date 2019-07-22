@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.1.0](https://github.com/sbrow/eslint-config/compare/v1.0.0...v1.1.0) (2019-07-22)
+
+
+### Features
+
+* Added `prefer-destructuring`. ([e476422](https://github.com/sbrow/eslint-config/commit/e476422))
+* Disabled a rule that is covered by prettier. ([eb132c1](https://github.com/sbrow/eslint-config/commit/eb132c1))
+
+
+
 ## 1.0.0 (2019-07-22)
 
 
