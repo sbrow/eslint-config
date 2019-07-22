@@ -92,6 +92,8 @@ module.exports = {
         named: "never",
       },
     ],
+    // Doesn't allow split import groups
+    // "sort-imports": ["warn", {ignoreCase: true}],
     "use-isnan": "error",
     "valid-typeof": "off",
     "@typescript-eslint/tslint/config": [
