@@ -211,6 +211,29 @@ module.exports = {
               "import-sources-order": "case-insensitive",
               "module-source-path": "full",
               "named-imports-order": "case-insensitive",
+              "grouped imports": true,
+              groups: [
+                {
+                  name: "External imports",
+                  match: "^(?!^.).*$",
+                  order: 10,
+                },
+                {
+                  name: "Parent imports",
+                  match: /^\.\./,
+                  order: 20,
+                },
+                {
+                  name: "",
+                  match: /^(front|back)end/,
+                  order: 20,
+                },
+                {
+                  name: "Sibling imports",
+                  match: /^\./,
+                  order: 30,
+                },
+              ],
             },
           ],
           "possible-timing-attack": true,
