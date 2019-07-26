@@ -19,8 +19,8 @@ module.exports = {
       "error",
       {
         allowExpressions: false,
-        allowTypedFunctionExpressions: false,
-        allowHigherOrderFunctions: false,
+        allowTypedFunctionExpressions: true,
+        allowHigherOrderFunctions: true,
       },
     ],
     "@typescript-eslint/explicit-member-accessibility": [
