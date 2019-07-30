@@ -281,7 +281,7 @@ module.exports = {
           //   },
           // ],
           "triple-equals": [true, "allow-null-check"],
-          "underscore-consistent-invocation": true,
+          // "underscore-consistent-invocation": true,
           "use-named-parameter": true,
           "use-simple-attributes": true,
           "variable-name": [
