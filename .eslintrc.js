@@ -15,6 +15,10 @@ module.exports = {
     "@typescript-eslint/await-thenable": "error",
     "@typescript-eslint/ban-types": "error",
     "@typescript-eslint/class-name-casing": "error",
+    "@typescript-eslint/consistent-type-assertions": [
+      "error",
+      { assertionStyle: "as", objectLiteralTypeAssertion: "allow" },
+    ],
     "@typescript-eslint/explicit-function-return-type": [
       "error",
       {
@@ -32,12 +36,14 @@ module.exports = {
         },
       },
     ],
-    "@typescript-eslint/indent": "off",
+    // "@typescript-eslint/indent": "off",
     "@typescript-eslint/interface-name-prefix": "off",
     "@typescript-eslint/member-ordering": "error",
     "@typescript-eslint/no-angle-bracket-type-assertion": "error",
     "@typescript-eslint/no-empty-interface": "error",
-    "@typescript-eslint/no-explicit-any": "off",
+    "@typescript-eslint/no-explicit-any": "error",
+    "@typescript-eslint/no-floating-promises  ": "error",
+    "@typescript-eslint/no-magic-numbers": "error",
     "@typescript-eslint/no-misused-new": "error",
     "@typescript-eslint/no-namespace": "error",
     "@typescript-eslint/no-parameter-properties": "off",
@@ -55,7 +61,7 @@ module.exports = {
     // "comma-dangle": ["error", "always-multiline"],
     complexity: "warn",
     "constructor-super": "error",
-    curly: "error",
+    // curly: "error",
     "dot-notation": "error",
     // "eol-last": "error",
     "guard-for-in": "error",
@@ -113,7 +119,7 @@ module.exports = {
     // Doesn't allow split import groups
     // "sort-imports": ["warn", {ignoreCase: true}],
     "use-isnan": "error",
-    "valid-typeof": "off",
+    // "valid-typeof": "off",
     "@typescript-eslint/tslint/config": [
       "error",
       {
@@ -121,11 +127,12 @@ module.exports = {
           "/Users/sbrow/Documents/GitHub/eslint-config/node_modules/tslint-microsoft-contrib",
         ],
         rules: {
-          align: [true, "parameters", "statements"],
+          // align: [true, "parameters", "statements"],
           "chai-prefer-contains-to-index-of": true,
-          "chai-vague-errors": true,
+          // "chai-vague-errors": true,
           "comment-format": [true, "check-space"],
           "export-name": true,
+          "file-header": true,
           "function-name": [
             true,
             {
@@ -137,11 +144,11 @@ module.exports = {
             },
           ],
           "import-name": true,
-          "import-spacing": true,
+          // "import-spacing": true,
           "informative-docs": true,
           "insecure-random": true,
           "jquery-deferred-must-complete": true,
-          "jsdoc-format": true,
+          // "jsdoc-format": true,
           "max-func-body-length": [
             true,
             100,
@@ -154,6 +161,7 @@ module.exports = {
           "mocha-no-side-effect-code": true,
           "mocha-unneeded-done": true,
           "no-backbone-get-set-outside-model": true,
+          "no-banned-terms": true,
           "no-cookies": true,
           "no-delete-expression": true,
           "no-disable-auto-sanitization": true,
