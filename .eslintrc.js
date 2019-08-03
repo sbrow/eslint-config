@@ -124,7 +124,7 @@ module.exports = {
       "error",
       {
         rulesDirectory: [
-          "/Users/sbrow/Documents/GitHub/eslint-config/node_modules/tslint-microsoft-contrib",
+          "./node_modules/tslint-microsoft-contrib",
         ],
         rules: {
           // align: [true, "parameters", "statements"],
