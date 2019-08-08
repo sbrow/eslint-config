@@ -43,7 +43,10 @@ module.exports = {
     "@typescript-eslint/no-empty-interface": "error",
     "@typescript-eslint/no-explicit-any": "error",
     "@typescript-eslint/no-floating-promises  ": "error",
-    "@typescript-eslint/no-magic-numbers": "error",
+    "@typescript-eslint/no-magic-numbers": [
+      "error",
+      { ignoreNumericLiteralTypes: true, ignoreEnums: true },
+    ],
     "@typescript-eslint/no-misused-new": "error",
     "@typescript-eslint/no-namespace": "error",
     "@typescript-eslint/no-parameter-properties": "off",
@@ -123,9 +126,7 @@ module.exports = {
     "@typescript-eslint/tslint/config": [
       "error",
       {
-        rulesDirectory: [
-          "./node_modules/tslint-microsoft-contrib",
-        ],
+        rulesDirectory: ["./node_modules/tslint-microsoft-contrib"],
         rules: {
           // align: [true, "parameters", "statements"],
           "chai-prefer-contains-to-index-of": true,
