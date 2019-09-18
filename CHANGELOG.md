@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.4.1](https://github.com/sbrow/eslint-config/compare/v1.4.0...v1.4.1) (2019-09-18)
+
+
+### Bug Fixes
+
+* `explicit-return-type` now allows expressions. ([fc0569f](https://github.com/sbrow/eslint-config/commit/fc0569f))
+
 ## [1.4.0](https://github.com/sbrow/eslint-config/compare/v1.3.1...v1.4.0) (2019-09-16)
 
 
