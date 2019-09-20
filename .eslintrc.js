@@ -180,7 +180,7 @@ module.exports = {
           "no-jquery-raw-elements": true,
           "no-reference-import": true,
           "no-shadowed-variable": true,
-          "no-single-line-block-comment": true,
+          // "no-single-line-block-comment": true,
           "no-string-based-set-immediate": true,
           "no-string-based-set-interval": true,
           "no-string-based-set-timeout": true,
