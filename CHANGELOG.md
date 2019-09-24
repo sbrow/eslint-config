@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.6.0](https://github.com/sbrow/eslint-config/compare/v1.5.0...v1.6.0) (2019-09-24)
+
+
+### Bug Fixes
+
+* Fixed a bug causing `tslint-microsoft-contrib` rules to not load. ([650d79b](https://github.com/sbrow/eslint-config/commit/650d79b))
+
+
+### Features
+
+* Upgraded to version 2 of `typescript-eslint`. ([159f542](https://github.com/sbrow/eslint-config/commit/159f542))
+
 ## [1.5.0](https://github.com/sbrow/eslint-config/compare/v1.4.1...v1.5.0) (2019-09-20)
 
 
