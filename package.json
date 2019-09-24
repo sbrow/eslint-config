@@ -1,6 +1,6 @@
 {
   "name": "@sbrow/eslint-config",
-  "version": "1.6.1",
+  "version": "1.6.2",
   "main": ".eslintrc.js",
   "author": "Spencer Brower",
   "license": "MIT",
