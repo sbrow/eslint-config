@@ -11,13 +11,16 @@ module.exports = {
   plugins: ["@typescript-eslint", "@typescript-eslint/tslint"],
   rules: {
     "@typescript-eslint/adjacent-overload-signatures": "warn",
-    "@typescript-eslint/array-type": ["warn", "array-simple"],
+    "@typescript-eslint/array-type": [
+      "warn",
+      { default: "array-simple", readonly: "array-simple" },
+    ],
     "@typescript-eslint/await-thenable": "warn",
     "@typescript-eslint/ban-types": "warn",
     "@typescript-eslint/class-name-casing": "warn",
     "@typescript-eslint/consistent-type-assertions": [
       "warn",
-      { assertionStyle: "as", objectLiteralTypeAssertion: "allow" },
+      { assertionStyle: "as", objectLiteralTypeAssertions: "allow" },
     ],
     "@typescript-eslint/explicit-function-return-type": [
       "warn",
