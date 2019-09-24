@@ -129,7 +129,7 @@ module.exports = {
     "@typescript-eslint/tslint/config": [
       "warn",
       {
-        rulesDirectory: ["./node_modules/tslint-microsoft-contrib"],
+        rulesDirectory: ["node_modules/tslint-microsoft-contrib"],
         rules: {
           // align: [true, "parameters", "statements"],
           "chai-prefer-contains-to-index-of": true,
