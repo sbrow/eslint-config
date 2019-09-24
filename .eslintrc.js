@@ -44,7 +44,7 @@ module.exports = {
     "@typescript-eslint/member-ordering": "warn",
     "@typescript-eslint/no-empty-interface": "warn",
     "@typescript-eslint/no-explicit-any": "warn",
-    "@typescript-eslint/no-floating-promises  ": ["warn", {}],
+    "@typescript-eslint/no-floating-promises": "warn",
     "@typescript-eslint/no-magic-numbers": [
       "warn",
       { ignoreNumericLiteralTypes: true, ignoreEnums: true },
