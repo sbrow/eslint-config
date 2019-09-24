@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.6.3](https://github.com/sbrow/eslint-config/compare/v1.6.2...v1.6.3) (2019-09-24)
+
+
+### Bug Fixes
+
+* Fixed typo causing `no-floating-promises` to not load. ([f0bb5b3](https://github.com/sbrow/eslint-config/commit/f0bb5b3))
+
 ### [1.6.2](https://github.com/sbrow/eslint-config/compare/v1.6.1...v1.6.2) (2019-09-24)
 
 
